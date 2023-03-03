@@ -1,2 +1,3 @@
 # catpush
-simple and quick p2p filesharing
+A simple, user friendly p2p filesharing service.
+Made at Unihack 2023.
