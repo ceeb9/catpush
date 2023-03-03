@@ -1,29 +1,39 @@
-# Must Have
-- signalling server
-- present unique code to identify rooms
-- ability to send files to one other user
-- ability to receive files from one other user
-- web server to serve web content
-- 3 pages 
-    - Main Menu 
-    - Send/Receive
-        - Upload/download dialogue
-    - File list of saved files
-    - Unique User ID page
+# Must Have (Priority 0)
+- signalling server 
+- direction connection host -> client
+- room code generation
+- send/receive files
+- preview files being sent
+- preview files being received
+- svelte components:
+    - header
+    - footer
+        - global statistics
+        - user statistics
+            - uuid
+        - contact/links
+    - main menu
+    - send file selection dialog
+    - receive file selection dialog (select which files to receive)
+    - send file preview (upload in progress screen)
+    - receieve file preview (download in progress screen)
+    - change uuid page (recover from cookie reset)
 
-# Should Have
+# Should Have (Priority 1)
 - user friendly ui
-- ability to share to multiple other users
-- custom description of room of file being shared
-- custom title of room of file being shared
+- ui design language pass
+- sending files from host -> multiple clients
+- custom room title
+- custom room info
 
-# Could Have
-- qr code room code sharing
-- alternative interfaces
+# Could Have (Priority 2)
+- QR code room sharing
+- alternate interfaces
     - mobile app
-- statistics on previous uploads
-    - UUID to identify previous users
-    - Personal stats on files sent, users shared with, filesize etc
+- integration with filesharing services
+    - google drive
+    - onedrive
+    - dropbox
 
 # Won't Have
 - persistent file storage
