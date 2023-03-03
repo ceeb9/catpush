@@ -7,8 +7,9 @@
 - 3 pages 
     - Main Menu 
     - Send/Receive
-        - Upload dialogue
+        - Upload/download dialogue
     - File list of saved files
+    - Unique User ID page
 
 # Should Have
 - user friendly ui
@@ -22,7 +23,7 @@
     - mobile app
 - statistics on previous uploads
     - UUID to identify previous users
-
+    - Personal stats on files sent, users shared with, filesize etc
 
 # Won't Have
 - persistent file storage
