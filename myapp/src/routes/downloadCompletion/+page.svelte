@@ -1,6 +1,8 @@
 <body>
-    <h1>Download Complete!</h1>
-    <button> <a href="../"> Return to Main Menu </a> </button>
+    <h1 class="title">Download Complete!</h1>
+    <div class="homebutton">
+        <button> <a href="../"> Return to Main Menu </a> </button>
+    </div>
 </body>
 
 <style>
@@ -12,6 +14,13 @@
         color: inherit
     }
 
+    .title,
+    .homebutton {
+        margin: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
     button {
   background-color: #EA4C89;
   border-radius: 8px;
@@ -21,9 +30,9 @@
   cursor: pointer;
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
-  height: 40px;
+  height: 50px;
   line-height: 20px;
   list-style: none;
   margin: 0;
