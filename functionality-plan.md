@@ -11,12 +11,15 @@
         - global statistics
         - user statistics
             - uuid
-        - contact/links
+        - contact/links 
     - main menu
     - send file selection dialog
     - receive file selection dialog (select which files to receive)
     - send file preview (upload in progress screen)
     - receieve file preview (download in progress screen)
+    - room info
+    - send complete
+    - download complete
     - change uuid page (recover from cookie reset)
 
 # Should Have (Priority 1)
