@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <body>
     <div class="container">
         <h1 class="title">Upload Complete!</h1>
@@ -114,4 +115,20 @@
             radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
             radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
     }
+=======
+<body>
+    <h1>UPLOAD COMPLETE!</h1>
+    <button onclick="location.href='/../';">Home</button>
+</body>
+
+<style>
+    body {
+        background-color: pink;
+    }
+    p {
+        color:pink;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 2em;
+    }
+>>>>>>> 26de8afb6d000df1f0d8db5312ebec2dad24eaaa
 </style>

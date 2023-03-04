@@ -43,7 +43,7 @@
     });
   </script>
 
-<style>
+    <style>
     body {
         background-color: #F6CBDC;
     }
@@ -87,6 +87,7 @@
     .pixelbutton:active {
         top: 2px;
     }
+    
     .pixelbutton {
         line-height: 0;
         
