@@ -60,7 +60,7 @@
     }
 
     footer img {
-        height: 70px;
+        height: 100px;
         width: auto;
     }
     .pixelbutton {
