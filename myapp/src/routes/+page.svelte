@@ -12,25 +12,12 @@
     }
 </style>
 
-<script>
-	let count = 0;
-
-	function increment() {
-		count += 1;
-	}
-</script>
-
 <body>
-<h1>catPush</h1>
-<p>Visit <a href="https://github.com/ceeb9/catpush">CATPUSH</a> to see the repo</p>
-
-
-
-
-<button on:click={increment}>
-	Clicked {count}
-	{count === 1 ? 'time' : 'times'}
-</button>
-
-<footer> Currently, the button has been clicked {count} time(s)</footer>
+    <h1>catPush</h1>
+    <button onclick="location.href='/uploadPage';">Upload</button>
+    <button onclick="location.href='/downloadPage';">Download</button>
 </body>
+
+<footer>
+    <p>Visit <a href="https://github.com/ceeb9/catpush">CATPUSH</a> to see the repo</p>
+</footer>
