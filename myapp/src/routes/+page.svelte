@@ -15,6 +15,7 @@
         margin: 200px;
         display: flex;
         justify-content: center;
+        gap: 20px;  
     }
 
     button {
@@ -53,9 +54,9 @@
 
 <body>
     <h1>catPush</h1>
-    <div class=".buttons">
-        <button onclick="location.href='/uploadPage';">Upload</button>
-        <button onclick="location.href='/downloadPage';">Download</button>
+    <div class="buttons">
+        <button > <a href="./uploadPage"> Upload </a> </button>
+        <button> <a href="./downloadPage"> Download </a> </button>
     </div>
 </body>
 
