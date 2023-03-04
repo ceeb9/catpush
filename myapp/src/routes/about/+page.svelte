@@ -12,6 +12,11 @@
     <div class="buttons">
         <div class="pixelbutton"><a href="./"> Return to Home </a></div>
     </div>
+
+    <footer>
+        <a href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
+        <p> Github Repo </p>
+    </footer>
 </body>
 
 <style>
@@ -24,6 +29,19 @@
     a {
         color: inherit;
         text-decoration: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    footer img {
+        height: 70px;
+        width: auto;
     }
 
     .info {

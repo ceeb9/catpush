@@ -9,6 +9,10 @@
 </nav>
 
 <style>
+    * {
+        background-color: #F6CBDC;
+    }
+    
     p {
         font-size: 50px;
         font-family: 'VT323';
@@ -16,9 +20,10 @@
     }
 
     nav {
-        margin: 20px;
-        margin-left: 45px;
-        margin-right: 80px;
+        padding: 20px;
+        padding-left: 45px;
+        padding-right: 80px;
+        margin: 0;
     }
 
     img {

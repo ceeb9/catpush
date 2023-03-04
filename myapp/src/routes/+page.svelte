@@ -51,6 +51,18 @@
         color: inherit;
         text-decoration: none;
     }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    footer img {
+        height: 70px;
+        width: auto;
+    }
     .pixelbutton {
         font-size: 35px;
         color: white;
@@ -129,7 +141,7 @@
 
     .title {
         font-size: 48px;
-        margin: 80px;
+        margin: 40px;
         font-family: 'VT323';
         display: flex;
         justify-content: center;
@@ -146,5 +158,6 @@
     </div>
 </body>
 <footer>
-    <p>Visit <a href="https://github.com/ceeb9/catpush">CATPUSH</a> to see the repo</p>
+    <a href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
+    <p> Github Repo </p>
 </footer>
