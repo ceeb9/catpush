@@ -1,37 +1,3 @@
-<style> 
-    body {
-        background-color: #F6CBDC;
-    }
-
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    .pixelbutton {
-        font-size: 35px;
-        color: white;
-        height: auto;
-        margin: 10px;
-        font-family: 'VT323';
-        
-        position: relative;
-        display: inline-block;
-        vertical-align: top;
-        text-transform: uppercase;
-        
-        cursor: pointer;
-        
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
-    .pixelbutton:active {
-        top: 2px;
 
 <script>
     import { onMount } from 'svelte'; //uses mount to make sure page is loaded
@@ -43,7 +9,6 @@
         let expires = "expires="+ d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
-
     //checks what the cookie is
     function getCookie(cname) {
         let UUID = cname + "="; //finds cookie
@@ -68,7 +33,6 @@
             UUID = uuidv4(); //create random uuid
             if (UUID != "" && UUID != null) {
                 setCookie("UUID", UUID, 365); //calls setcookie to create a cookie
-
             }
         }
         var jUUID = JSON.stringify(UUID);
@@ -79,7 +43,51 @@
     });
   </script>
 
-<style>
+    <style>
+    body {
+        background-color: #F6CBDC;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    footer img {
+        height: 70px;
+        width: auto;
+    }
+    .pixelbutton {
+        font-size: 35px;
+        color: white;
+        height: auto;
+        margin: 10px;
+        font-family: 'VT323';
+        
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        text-transform: uppercase;
+        
+        cursor: pointer;
+        
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .pixelbutton:active {
+        top: 2px;
+    }
+    
     .pixelbutton {
         line-height: 0;
         
@@ -97,7 +105,6 @@
         -o-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
         border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
     }
-
     .pixelbutton a {
         display: inline-block;
         vertical-align: top;
@@ -122,9 +129,8 @@
                 radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
                 radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
     }
-
     .buttons {
-        margin: 200px;
+        margin: 150px;
         gap: 150px;
         display: flex;
         justify-content: center;
@@ -134,9 +140,17 @@
         text-align: center;
     }
 
+    .title {
+        font-size: 48px;
+        margin: 40px;
+        font-family: 'VT323';
+        display: flex;
+        justify-content: center;
+    }
 </style>
 
 <body>
+    <p class="title"> Welcome to catpush! </p>
 
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <div class="buttons">
@@ -144,7 +158,7 @@
         <div class="pixelbutton"><a href="./downloadPage"> Download </a></div>
     </div>
 </body>
-
 <footer>
-    <p>Visit <a href="https://github.com/ceeb9/catpush">CATPUSH</a> to see the repo</p>
+    <a href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
+    <p> Github Repo </p>
 </footer>
