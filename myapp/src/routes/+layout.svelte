@@ -2,7 +2,7 @@
     <div class="header">
         <div class="logo">
             <img src="./catlogobg.png" alt="cat logo">   
-            <p> catpush </p>
+            <a href="./"> <p> catpush </p> </a>
         </div>
         <div class="about"> <a href="./about"> <p> about </p> </a> </div>
     </div>
