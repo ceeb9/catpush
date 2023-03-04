@@ -1,4 +1,4 @@
 data/log/mongod.log
-data/**/*.log
-data/**/*.log
+data/diagnostic.data/**
+data/journal/**
 data/WiredTiger.lock
