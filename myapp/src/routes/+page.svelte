@@ -88,11 +88,21 @@
         text-align: center;
     }
 
+    .title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+        font-weight: bolder;
+        font-family: 'VT323';
+    }
+
 </style>
 
 <body>
-
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <div class="title"> Welcome to Catpush! </div>
     <div class="buttons">
         <div class="pixelbutton"><a href="./uploadPage"> Upload </a></div>
         <div class="pixelbutton"><a href="./downloadPage"> Download </a></div>
