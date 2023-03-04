@@ -9,7 +9,7 @@
     }
 
     .pixelbutton {
-        font-size: 25px;
+        font-size: 35px;
         color: white;
         height: auto;
         margin: 10px;
@@ -77,9 +77,9 @@
                 radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
     }
 
-    .container {
-        margin: 50px;
-        gap: 15px;
+    .buttons {
+        margin: 200px;
+        gap: 150px;
         display: flex;
         justify-content: center;
         width: 400px;
@@ -91,10 +91,9 @@
 </style>
 
 <body>
-    <h1> Welcome to catpush! </h1>
 
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
-    <div class="container">
+    <div class="buttons">
         <div class="pixelbutton"><a href="./uploadPage"> Upload </a></div>
         <div class="pixelbutton"><a href="./downloadPage"> Download </a></div>
     </div>

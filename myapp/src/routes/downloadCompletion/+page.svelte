@@ -1,9 +1,11 @@
 <body>
-    <h1 class="title">Download Complete!</h1>
-
-    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <div class="container">
-        <div class="pixelbutton"><a href="./"> Return to Main </a></div>
+        <h1 class="title">Download Complete!</h1>
+
+        <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+        <div class="buttons">
+            <div class="pixelbutton"><a href="./"> Return to Home </a></div>
+        </div>
     </div>
 
 </body>
@@ -12,6 +14,7 @@
     body {
         background-color: #F6CBDC;
         color: #232323;
+        font-family: 'VT323';
     }
 
     a {
@@ -19,13 +22,21 @@
         text-decoration: none;
     }
 
+    .container {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
     .title {
         display: flex;
         color: #232323;
         justify-content: center;
+        font-size: 36px;
     }
 
-    .container {
+    .buttons {
         margin: 50px;
         display: flex;
         justify-content: center;
@@ -36,7 +47,7 @@
     }
 
     .pixelbutton {
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     height: auto;
     margin: 10px;
