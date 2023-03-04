@@ -115,4 +115,3 @@
             radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
     }
 </style>
-

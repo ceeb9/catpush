@@ -1,6 +1,7 @@
 <body>
-    <h1>UPLOAD COMPLETE!</h1>
-    <button onclick="location.href='/../';">Home</button>
+    <h1>PREVIEW</h1>
+    <h2>No files listed</h2>
+    <button onclick="location.href='/downloadPage';">Back</button>
 </body>
 
 <style>
