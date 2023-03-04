@@ -1,4 +1,3 @@
-data/log/mongod.log
-data/diagnostic.data/**
-data/journal/**
-data/WiredTiger.lock
+data/
+node_modules/
+websocket/node_modules/
