@@ -1,14 +1,38 @@
 <nav>
-    <div class="logo"> <img src="myapp\static\catlogo.jpg" alt="cat logo"> </div>    <h1> catpush </h1>
+    <div class="header">
+        <div class="logo">
+            <img src="./catlogo.jpg" alt="cat logo">   
+        </div> 
+        <div class="title">
+            <p> catpush </p>
+        </div>
+    </div>
 
 </nav>
 
 <style>
-    body {
-        background-color: #F9DCE8;
+    p {
+        font-size: 64px;
+        font-family: 'VT323';
+        font-weight: bolder;
     }
-    h1 {
-        text-align: center;
+
+    nav {
+        margin: 20px;
+    }
+
+    img {
+        height: 200px;
+        width: auto;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
     }
 </style>
 

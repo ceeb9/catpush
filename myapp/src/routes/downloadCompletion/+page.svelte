@@ -10,7 +10,7 @@
 
 <style>
     body {
-        background-color: #F9DCE8;
+        background-color: #F6CBDC;
         color: #232323;
     }
 
