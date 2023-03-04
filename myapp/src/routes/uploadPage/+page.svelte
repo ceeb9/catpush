@@ -5,7 +5,8 @@
     
     <p><label for="">Receiver:</label></p>
     <textarea id="SenderID" name="Sender ID" rows="0" cols="8"></textarea>
-    <button onclick="location.href='/uploadCompletion';">Download</button>
+    <button onclick="location.href='/fileUpload';">Preview</button>
+    <button onclick="location.href='/uploadCompletion';">Upload</button>
 </body>
 
 <style>
