@@ -156,6 +156,6 @@
     </div>
 </body>
 <footer>
-    <a href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
+    <a href="https://github.com/ceeb9/catpush"> <img src="./githubsvg.svg" alt="github logo"> </a>
     <p> Github Repo </p>
 </footer>

@@ -18,7 +18,7 @@
     </div>
 
     <footer>
-        <a target="_blank" href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
+        <a target="_blank" href="https://github.com/ceeb9/catpush"> <img src="./githubsvg.svg" alt="github logo"> </a>
         <p> Github Repo </p>
     </footer>
 </body>
