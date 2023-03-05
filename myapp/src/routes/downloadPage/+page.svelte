@@ -4,12 +4,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <p class='title'>DOWNLOAD</p>
     <p> WARNING: Make sure you trust the person who is sending you the file, and are aware of the risks of downloading it</p>
-    <p><label for="">You:</label></p>
-    <textarea id="UserID" name="User ID" rows="0" cols="8"></textarea>
-    
-    <p><label for="">Sender:</label></p>
-    <textarea id="SenderID" name="Sender ID" rows="0" cols="8"></textarea>
-    <p></p>
+    <p id="promptJoin"><label for="">Please enter the Room Code:</label></p>
+    <textarea id="UserID" name="User ID" rows="0" cols="180"></textarea>
+    <div class="pixelbutton">Accept</div>
     <div class="pixelbutton"> <a href="./fileDownload"> Preview </a></div>
     <div class="pixelbutton"> <a href="./downloadCompletion"> Download </a></div>
 </body>
@@ -95,4 +92,3 @@
                 radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
     }
 </style>
-
