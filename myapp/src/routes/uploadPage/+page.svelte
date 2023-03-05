@@ -1,9 +1,9 @@
 <body>
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <p class='title'> UPLOAD </p>
-    <p><label for="">You:</label></p>
+    <p><label for="">You: <span id="roomCode"></span></label></p>
     <textarea id="UserID" name="User ID" rows="0" cols="8"></textarea>
-    
+
     <p><label for="">Receiver:</label></p>
     <textarea id="SenderID" name="Sender ID" rows="0" cols="8"></textarea>
     <div class="pixelbutton"> <a href="./fileUpload"> Preview </a></div>
@@ -26,14 +26,14 @@
         height: auto;
         margin: 10px;
         font-family: 'VT323';
-        
+
         position: relative;
         display: inline-block;
         vertical-align: top;
         text-transform: uppercase;
-        
+
         cursor: pointer;
-        
+
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -48,14 +48,14 @@
 
     .pixelbutton {
         line-height: 0;
-        
+
         image-rendering: optimizeSpeed;
         image-rendering: -moz-crisp-edges; /* Firefox */
         image-rendering: -o-crisp-edges; /* Opera */
         image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
         image-rendering: crisp-edges;
         -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-        
+
         border-style: solid;
         border-width: 20px;
         -moz-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
@@ -73,7 +73,7 @@
         margin: -20px -20px;
         line-height: 20px;
         padding: 10px 20px;
-        
+
             background: #000000;
             background:
                 linear-gradient(135deg, transparent 10px, #000000 0) top left,
@@ -89,3 +89,12 @@
                 radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
     }
 </style>
+
+<script>
+    import { onMount } from 'svelte';
+    let UUID = Math.random().toString(36).slice(2,8);
+    onMount(() => {
+        document.getElementById("roomCode").innerHTML = UUID; //if page is loaded, run function
+    });
+
+</script>
