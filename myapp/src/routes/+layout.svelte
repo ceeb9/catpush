@@ -1,7 +1,11 @@
 <nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <div class="header">
+        <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Tilt+Neon">
         <div class="logo">
-            <img src="./catlogobg.png" alt="cat logo">   
+            <img src="./catlogo.svg" alt="cat logo">   
             <a href="./"> <p> catpush </p> </a>
         </div>
         <div class="about"> <a href="./about"> <p> about </p> </a> </div>
@@ -15,7 +19,7 @@
     
     p {
         font-size: 50px;
-        font-family: 'VT323';
+        font-family:'Shantell Sans', cursive;;
         font-weight: bolder;
     }
 
