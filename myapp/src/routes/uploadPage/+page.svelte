@@ -3,9 +3,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <p class='title'> UPLOAD </p>
-    <p><label for="">You:</label></p>
+    <p><label for="">You: <span id="roomCode"></span></label></p>
     <textarea id="UserID" name="User ID" rows="0" cols="8"></textarea>
-    
+
     <p><label for="">Receiver:</label></p>
     <textarea id="SenderID" name="Sender ID" rows="0" cols="8"></textarea>
     <p></p>
@@ -30,14 +30,14 @@
         height: auto;
         margin: 10px;
         font-family: 'VT323';
-        
+
         position: relative;
         display: inline-block;
         vertical-align: top;
         text-transform: uppercase;
-        
+
         cursor: pointer;
-        
+
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -52,14 +52,14 @@
 
     .pixelbutton {
         line-height: 0;
-        
+
         image-rendering: optimizeSpeed;
         image-rendering: -moz-crisp-edges; /* Firefox */
         image-rendering: -o-crisp-edges; /* Opera */
         image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
         image-rendering: crisp-edges;
         -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-        
+
         border-style: solid;
         border-width: 20px;
         -moz-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
@@ -77,7 +77,7 @@
         margin: -20px -20px;
         line-height: 20px;
         padding: 10px 20px;
-        
+
             background: #000000;
 
             background-size: 50% 50%;
@@ -85,3 +85,12 @@
             border-radius: 30%;
     }
 </style>
+
+<script>
+    import { onMount } from 'svelte';
+    let UUID = Math.random().toString(36).slice(2,8);
+    onMount(() => {
+        document.getElementById("roomCode").innerHTML = UUID; //if page is loaded, run function
+    });
+
+</script>
