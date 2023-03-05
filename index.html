@@ -9,41 +9,43 @@
 </head>
 
 <body>
-    <div id="content-wrapper">
+    <div class="content-wrapper">
+
         <div class="header">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt+Neon">
-            <div class="logo">
-                <img src="./assets/catlogo.svg" alt="catoush">
-                <a href="./">
-                    <p>catpush</p>
-                </a>
+            <div style="display: flex; align-items: center;">
+                <img id="logo" src="./assets/catlogo.svg" alt="catpush">
+                <a id="title" href="./">catpush</a>
             </div>
-            <div class="about">
-                <a href="./about">
-                    <p>about</p>
-                </a>
-            </div>
-        </div>
-        <div class="separator"></div>
-
-        <div class="info-title">
-            Welcome to catpush!
-        </div>
-        <div class="info-text">
-            A quick and effortless way to share files with friends. No login required!
+            <div class="hr-separator"></div>
         </div>
 
         <div class="buttons">
-            <div class="pixelbutton"><a href="./uploadPage.html">Send</a></div>
-            <div class="pixelbutton"><a href="./uploadPage.html">Receive</a></div>
+            <div id="sendButton" onclick="window.open('./uploadPage.html')">
+                send
+            </div>
+            <div id="receiveButton" onclick="window.open('./uploadPage.html')">
+                receive
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="info">
+                <h1 id="info-title">Welcome to catpush!</h1>
+                <p id="info-text">A quick and effortless way to share files with friends. No login required!</p>
+            </div>
+    
+            <div class="vr-separator"></div>
+            <div class="links">
+                <a href="https://github.com/ceeb9/catpush">
+                    <img id="github-logo" src="./assets/githublogo.png" alt="github logo">
+                </a>
+            </div>
+            
         </div>
     </div>
 
-    <div class="footer">
-        <a href="https://github.com/ceeb9/catpush">
-            <img src="./assets/githublogo.png" alt="github logo">
-        </a>
-        <p> Github Repo </p>
-    </div>
+    
+
 </body>
 </html>
