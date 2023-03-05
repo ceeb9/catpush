@@ -1,11 +1,15 @@
 <body>
 
     <div class="info">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+
         <p class="title"> What is catpush? </p>
         <p class="text"> Catpush is a simple and user friendly peer-to-peer filesharing service. 
             It was created as part of Unihack 2023 by a group of 5 in 48 hours. </p>
-        <p class="text"> When sharing files, users would have to go through various middlemen. Google drive, email, etc. 
-            Catpush completely removes that, allowing users to quickly share files to others with no hassle. </p>
+        <p class="text"> Usually, when sharing files, users would have to go through various middlemen, such as Google drive, email, etc. 
+           Instead, Catpush completely eliminates the need for this, allowing users to effortlessly share files to others quickly and securely. </p>
 
     </div>
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
@@ -14,7 +18,7 @@
     </div>
 
     <footer>
-        <a href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
+        <a target="_blank" href="https://github.com/ceeb9/catpush"> <img src="./githublogo.png" alt="github logo"> </a>
         <p> Github Repo </p>
     </footer>
 </body>
@@ -23,7 +27,7 @@
     body {
         background-color: #F6CBDC;
         color: #232323;
-        font-family: 'VT323';
+        font-family: 'Shantell Sans', cursive;
     }
 
     a {

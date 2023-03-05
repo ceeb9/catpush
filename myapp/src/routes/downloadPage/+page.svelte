@@ -1,11 +1,15 @@
 <body>
-    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <p class='title'>DOWNLOAD</p>
+    <p> WARNING: Make sure you trust the person who is sending you the file, and are aware of the risks of downloading it</p>
     <p><label for="">You:</label></p>
     <textarea id="UserID" name="User ID" rows="0" cols="8"></textarea>
     
     <p><label for="">Sender:</label></p>
     <textarea id="SenderID" name="Sender ID" rows="0" cols="8"></textarea>
+    <p></p>
     <div class="pixelbutton"> <a href="./fileDownload"> Preview </a></div>
     <div class="pixelbutton"> <a href="./downloadCompletion"> Download </a></div>
 </body>
@@ -13,7 +17,9 @@
 <style>
     body {
         background-color: #F6CBDC;
-        font-family: 'VT323';
+        font-family: 'Shantell Sans', cursive;
+        text-align: center;
+
     }
     a {
         color: inherit;

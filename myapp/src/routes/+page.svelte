@@ -114,20 +114,13 @@
         margin: -20px -20px;
         line-height: 20px;
         padding: 10px 20px;
+        border-radius: 30%;
         
             background: #000000;
-            background:
-                linear-gradient(135deg, transparent 10px, #000000 0) top left,
-                linear-gradient(225deg, transparent 10px, #000000 0) top right,
-                linear-gradient(315deg, transparent 10px, #000000 0) bottom right,
-                linear-gradient(45deg,  transparent 10px, #000000 0) bottom left;
+
             background-size: 50% 50%;
             background-repeat: no-repeat;
-            background-image:
-                radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #000000 15px),
-                radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #000000 15px),
-                radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
-                radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
+ 
     }
     .buttons {
         margin: 150px;
@@ -143,19 +136,23 @@
     .title {
         font-size: 48px;
         margin: 40px;
-        font-family: 'VT323';
+        font-family:'Shantell Sans', cursive;;
         display: flex;
         justify-content: center;
     }
 </style>
 
 <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <p class="title"> Welcome to catpush! </p>
+    <p class="title">An effortless and quick way to share your file with others</p>
 
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <div class="buttons">
-        <div class="pixelbutton"><a href="./uploadPage"> Upload </a></div>
-        <div class="pixelbutton"><a href="./downloadPage"> Download </a></div>
+        <div class="pixelbutton"><a href="./uploadPage"> Send </a></div>
+        <div class="pixelbutton"><a href="./downloadPage"> Receive </a></div>
     </div>
 </body>
 <footer>
