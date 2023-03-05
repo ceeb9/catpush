@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>catpush</h1>
+        <pre id="messages" style="overflow: scroll"></pre>
+        <table id="fileList">
+            <tr>Files to be Shared</tr>
+            <tr>
+                <td>Filetype</td>
+                <td>Name</td>
+                <td>Size</td>
+                <td>Download</td>
+            </tr>
+        </table>
+        <input type="file" id="fileChooser" style="display: block; width: 100%; margin-bottom: 10px; padding: 10px;"/> 
+        <button id="sendButton" title="send files" style="width: 20%; height: 30px;">Send Files</button>
+        <script src="./src/client.js"></script>
+    </body>
+</html>
+

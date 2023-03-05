@@ -1,0 +1,76 @@
+body {
+    margin-top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F6CBDC;
+}
+
+p {
+    font-size: 50px;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bolder;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin-left: 40px;
+}
+
+.about {
+    margin-right: 80px;
+}
+
+.separator {
+    background-color: black;
+    margin: auto;
+    width: 90%;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.info-title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.buttons {
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+}
