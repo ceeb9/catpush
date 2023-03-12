@@ -3,12 +3,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <p class='title'> UPLOAD </p>
-    <p><label for="">You: <span id="roomCode"></span></label></p>
-    <textarea id="UserID" name="User ID" rows="0" cols="8"></textarea>
-
-    <p><label for="">Receiver:</label></p>
-    <textarea id="SenderID" name="Sender ID" rows="0" cols="8"></textarea>
-    <p></p>
+    <p><label for="">Your Room Code: <span id="roomCode"></span></label></p>
     <div class="pixelbutton"> <a href="./fileUpload"> Preview </a></div>
     <div class="pixelbutton"> <a href="./uploadCompletion"> Upload </a></div>
 </body>
