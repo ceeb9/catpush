@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F6CBDC;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 60%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bolder;
+}
+
+.hr-separator {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.buttons {
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#sendButton, #receiveButton {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 48px;
+    font-family: 'Shantell Sans', cursive;
+
+    color: white;
+    background-color: rgb(48, 48, 48);
+
+    cursor: pointer;
+
+    border: 4px;
+    border-radius: 32px;
+    border-color: black;
+    border-style: solid;
+}
+
+#sendButton:hover, #receiveButton:hover {
+    background-color: rgb(64, 64, 64);
+}
+.footer {
+    margin-bottom: 20px;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+
+#info-title {
+    font-size: 24px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+#info-text {
+    font-size: 16px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.vr-separator {
+    background-color: black;
+    height: 100%;
+    width: 6px;
+    border-radius: 3px;
+}
+
+.links {
+    height: 50%;
+}
+
+#github-logo {
+    height: 100%;
+    width: auto;
+}
